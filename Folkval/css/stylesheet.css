@@ -1,0 +1,13 @@
+.bild{
+    background-image: url("../img/buss.jpg");
+	height: 662px;
+	text-align: center;
+}
+.text{
+	text-align: center;
+    color:white;
+    margin-top: -400px;
+    background-color: rgba(48, 48, 48, 0.8);
+}
+
+
