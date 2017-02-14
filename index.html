@@ -9,11 +9,30 @@
 	<title>FOLKOMRÖSTNING FÖ FAN</title>
 </head>
 <body>
-<header class="text">
-	<div>
-	<h1>Folkomröstning</h1>
-	<h3>Fler Busslinjer</h3>
-</div>
+
+	<nav class="navbar navbar-default">
+  	<div class="container-fluid">
+    	<div class="navbar-header">
+      	<a class="navbar-brand" href="#"></a>
+    	</div>
+    	<ul class="nav navbar-nav">
+      	<li class="active"><a href="#">Hem</a></li>
+      	<li><a href="#">Busslinjer</a></li>
+    	</ul>
+  	</div>
+	</nav>
 </header>
+<form action="./folkval/post.php" method="POST">
+  First name:<br>
+  <input type="text" name="namn"><br>
+  Ort:<br>
+  <input type="text" name="ort"><br>
+	Mail:<br>
+	<input type="text" name="mail"><br>
+	Personnummer:<br>
+	<input type="number" name="personNr"><br>
+	<br>
+  <input type="submit" value="Submit">
+</form>
 </body>
 </html>
