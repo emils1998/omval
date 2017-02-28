@@ -1,3 +1,4 @@
+<html>
 <?php
 
     include("./databas.php");
@@ -8,11 +9,16 @@
 
     $sql = "INSERT INTO lista (namn, ort, mail, personNr)VALUES('$namn','$ort','$mail','$personNr')";
 
-    if($conn->query($sql) === TRUE){
-        header("Location: /omval");
+    if($conn->query($sql) === TRUE){  ?>
+        <script>
+            alert("Klart");
+            window.location.replace("http://localhost/omval");
+        </script>
+  <?php
     }
     else{
-      echo "kys";
+      echo "Okej";
     }
 
  ?>
+ </html>
