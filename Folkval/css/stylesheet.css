@@ -1,13 +1,19 @@
-.bild{
-    background-image: url("../img/buss.jpg");
+header{
+	background-image: url("./img/buss.jpg");
 	height: 662px;
 	text-align: center;
+
 }
-.text{
+header div{
+	margin-top: 332px;
 	text-align: center;
-    color:white;
-    margin-top: -400px;
-    background-color: rgba(48, 48, 48, 0.8);
+
 }
 
+h1{
+	color:#FFF;
+}
 
+h3{
+	color:#FFF;
+}

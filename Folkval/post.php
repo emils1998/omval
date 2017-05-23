@@ -1,7 +1,7 @@
 <html>
 <?php
 
-    include("./databas.php");
+    include("databas.php");
     $namn = $_POST["namn"];
     $ort = $_POST["ort"];
     $mail = $_POST["mail"];
@@ -12,7 +12,7 @@
     if($conn->query($sql) === TRUE){  ?>
         <script>
             alert("Klart");
-            window.location.replace("http://localhost/omval");
+            window.location.replace("http://localhost/omval/folkval");
         </script>
   <?php
     }
